@@ -5,7 +5,7 @@ public class Home {
 
 
     public void nooflights(){
-        this.nooflights=4;
-        System.out.println(nooflights);
+
+        System.out.println("This is Home Parent class");
     }
 }

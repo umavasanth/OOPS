@@ -3,8 +3,10 @@ package Inheritance;
 import Inheritance.Home;
 
 public class Room2 extends Home {
-    public void nooflights(){
-        int nooflights=3;
-        System.out.println("No of lights in Inheritance.Room2:"+nooflights);
+
+    @Override
+    public void nooflights() {
+       nooflights=3;
+        System.out.println("Number of lights in Room 2: "+nooflights);
     }
 }
